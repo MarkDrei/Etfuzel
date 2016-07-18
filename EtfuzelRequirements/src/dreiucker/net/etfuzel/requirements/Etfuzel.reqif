@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-b392cd33-ba5a-42de-a174-ae1670c18ce1">
+    <REQ-IF-HEADER IDENTIFIER="rmf-6e9a1d62-8d2d-4ac1-92a5-342f4ae197d8">
       <COMMENT>Created by: Mark</COMMENT>
       <CREATION-TIME>2016-07-18T15:11:57.836+02:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -23,16 +23,23 @@
                 <DATATYPE-DEFINITION-STRING-REF>_NM3D00zpEeaEWvm_49eTCQ</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
             </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Hm2WMEzsEeauxrQaf4JX3w" LAST-CHANGE="2016-07-18T15:32:46.317+02:00" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_NM3D00zpEeaEWvm_49eTCQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+              <DEFAULT-VALUE>
+                <ATTRIBUTE-VALUE-STRING THE-VALUE="Req">
+                  <DEFINITION>
+                    <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+                  </DEFINITION>
+                </ATTRIBUTE-VALUE-STRING>
+              </DEFAULT-VALUE>
+            </ATTRIBUTE-DEFINITION-STRING>
           </SPEC-ATTRIBUTES>
         </SPEC-OBJECT-TYPE>
         <SPECIFICATION-TYPE IDENTIFIER="_NM3D1kzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:11:57.836+02:00" LONG-NAME="Specification Type">
           <SPEC-ATTRIBUTES>
             <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_NM3D10zpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:11:57.836+02:00" LONG-NAME="Description">
-              <TYPE>
-                <DATATYPE-DEFINITION-STRING-REF>_NM3D00zpEeaEWvm_49eTCQ</DATATYPE-DEFINITION-STRING-REF>
-              </TYPE>
-            </ATTRIBUTE-DEFINITION-STRING>
-            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_Y9cV8EzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:13:14.824+02:00" LONG-NAME="ID">
               <TYPE>
                 <DATATYPE-DEFINITION-STRING-REF>_NM3D00zpEeaEWvm_49eTCQ</DATATYPE-DEFINITION-STRING-REF>
               </TYPE>
@@ -46,6 +53,28 @@
             <ATTRIBUTE-VALUE-STRING THE-VALUE="asdasd">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqHL-01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_GfmFIEzqEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:33:56.061+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Desc">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqUI-01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
             </ATTRIBUTE-VALUE-STRING>
           </VALUES>
@@ -74,6 +103,25 @@
             </SPEC-HIERARCHY>
           </CHILDREN>
         </SPECIFICATION>
+        <SPECIFICATION IDENTIFIER="_vs2tIEzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:15:44.520+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="User Interface Requirements">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D10zpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_NM3D1kzpEeaEWvm_49eTCQ</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_Gf8qcEzqEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:18:19.490+02:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_GfmFIEzqEeaEWvm_49eTCQ</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
       </SPECIFICATIONS>
     </REQ-IF-CONTENT>
   </CORE-CONTENT>
@@ -83,8 +131,17 @@
         <configuration:specViewConfigurations>
           <configuration:ProrSpecViewConfiguration specification="_NM3D2kzpEeaEWvm_49eTCQ">
             <configuration:columns>
-              <configuration:Column label="ID" width="126"/>
+              <configuration:Column label="ID" width="170"/>
               <configuration:Column label="Description" width="300"/>
+            </configuration:columns>
+            <configuration:leftHeaderColumn>
+              <configuration:Column label="Lead Header Column" width="30"/>
+            </configuration:leftHeaderColumn>
+          </configuration:ProrSpecViewConfiguration>
+          <configuration:ProrSpecViewConfiguration specification="_vs2tIEzpEeaEWvm_49eTCQ">
+            <configuration:columns>
+              <configuration:Column label="ID" width="147"/>
+              <configuration:Column label="Description" width="100"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
               <configuration:Column label="Lead Header Column" width="30"/>
