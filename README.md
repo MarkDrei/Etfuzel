@@ -6,3 +6,19 @@ No complete functionality is provided.
 
 Etfuzel is Java application which provides task / todo management functionality.
 
+
+
+
+Project structure
+==================
+
+- EtfuzelRequirements
+
+   Documents the requirements for Etfuzel
+- dreiucker.net.etfuzel.backend
+
+   Etfuzels backend. Data model, data storage and so on.
+   
+- dreiucker.net.etfuzel.ui
+
+   Etfuzel's user interface based on the Standard Widget Toolkit SWT.
