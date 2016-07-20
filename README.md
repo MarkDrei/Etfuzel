@@ -12,9 +12,10 @@ Etfuzel is Java application which provides task / todo management functionality.
 Project structure
 ==================
 
-- EtfuzelRequirements
+- EtfuzelDecisions
 
-   Documents the requirements for Etfuzel
+   Documents the requirements and central decisions for Etfuzel
+   
 - dreiucker.net.etfuzel.backend
 
    Etfuzels backend. Data model, data storage and so on.
