@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-6e9a1d62-8d2d-4ac1-92a5-342f4ae197d8">
+    <REQ-IF-HEADER IDENTIFIER="rmf-d3a98e3c-a8d5-4e5b-a15d-98ad69ebb9d9">
       <COMMENT>Created by: Mark</COMMENT>
       <CREATION-TIME>2016-07-18T15:11:57.836+02:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -48,9 +48,9 @@
         </SPECIFICATION-TYPE>
       </SPEC-TYPES>
       <SPEC-OBJECTS>
-        <SPEC-OBJECT IDENTIFIER="_NM3D2EzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:12:49.418+02:00">
+        <SPEC-OBJECT IDENTIFIER="_NM3D2EzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:40:02.386+02:00">
           <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="asdasd">
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The user can store so-called Mementos, which are objects that contain data that the user wants to remember">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -65,9 +65,9 @@
             <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
-        <SPEC-OBJECT IDENTIFIER="_GfmFIEzqEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:33:56.061+02:00">
+        <SPEC-OBJECT IDENTIFIER="_GfmFIEzqEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:58:56.479+02:00">
           <VALUES>
-            <ATTRIBUTE-VALUE-STRING THE-VALUE="Desc">
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="A desktop application must be provided to manage mementos">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
@@ -75,6 +75,23 @@
             <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqUI-01">
               <DEFINITION>
                 <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_MqbdcEzvEeauxrQaf4JX3w" LAST-CHANGE="2016-07-18T15:54:48.824+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqHL-Memento-01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Mementos may contain a description in the form of plain text">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
               </DEFINITION>
             </ATTRIBUTE-VALUE-STRING>
           </VALUES>
@@ -100,6 +117,13 @@
               <OBJECT>
                 <SPEC-OBJECT-REF>_NM3D2EzpEeaEWvm_49eTCQ</SPEC-OBJECT-REF>
               </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_MqzQ4EzvEeauxrQaf4JX3w" LAST-CHANGE="2016-07-18T15:54:48.824+02:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_MqbdcEzvEeauxrQaf4JX3w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
             </SPEC-HIERARCHY>
           </CHILDREN>
         </SPECIFICATION>
@@ -132,7 +156,7 @@
           <configuration:ProrSpecViewConfiguration specification="_NM3D2kzpEeaEWvm_49eTCQ">
             <configuration:columns>
               <configuration:Column label="ID" width="170"/>
-              <configuration:Column label="Description" width="300"/>
+              <configuration:Column label="Description" width="697"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
               <configuration:Column label="Lead Header Column" width="30"/>
@@ -141,7 +165,7 @@
           <configuration:ProrSpecViewConfiguration specification="_vs2tIEzpEeaEWvm_49eTCQ">
             <configuration:columns>
               <configuration:Column label="ID" width="147"/>
-              <configuration:Column label="Description" width="100"/>
+              <configuration:Column label="Description" width="714"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
               <configuration:Column label="Lead Header Column" width="30"/>
