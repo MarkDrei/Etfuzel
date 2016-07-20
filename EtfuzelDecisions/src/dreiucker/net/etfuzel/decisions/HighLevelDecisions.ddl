@@ -46,7 +46,7 @@ Decision windowToolkitSWT {
 	
 	Alternatives: {
 		windowToolkitAWT: "Use AWT" causes "Limited choice of widgets available"
-		windowToolkitSwing: "Use Swing" causes "Same typical Java UI look on all plattforms"
+		windowToolkitSwing: "Use Swing" causes "Same typical Java UI look on all platforms"
 	}
 	
 	Requirements: ReqUI_01
