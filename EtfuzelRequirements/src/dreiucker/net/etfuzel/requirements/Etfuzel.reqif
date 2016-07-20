@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
-    <REQ-IF-HEADER IDENTIFIER="rmf-d3a98e3c-a8d5-4e5b-a15d-98ad69ebb9d9">
+    <REQ-IF-HEADER IDENTIFIER="rmf-57f96eff-e070-404b-a6bc-d5cd5e9061b0">
       <COMMENT>Created by: Mark</COMMENT>
       <CREATION-TIME>2016-07-18T15:11:57.836+02:00</CREATION-TIME>
       <REQ-IF-TOOL-ID>ProR (http://pror.org)</REQ-IF-TOOL-ID>
@@ -99,6 +99,40 @@
             <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Y2FQ8E5uEeaAL97O87wU6Q" LAST-CHANGE="2016-07-20T13:37:47.398+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqHL-02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Memontos must be saved to persistent storage">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_e-OT4E5uEeaAL97O87wU6Q" LAST-CHANGE="2016-07-20T13:38:28.989+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqHL-Storage-01">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="It must be possible to create a backup of the stored data">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_NM3D2kzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:12:30.750+02:00" LONG-NAME="Specification Document">
@@ -121,6 +155,18 @@
                 <SPEC-HIERARCHY IDENTIFIER="_MqzQ4EzvEeauxrQaf4JX3w" LAST-CHANGE="2016-07-18T15:54:48.824+02:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_MqbdcEzvEeauxrQaf4JX3w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_Y2gHsE5uEeaAL97O87wU6Q" LAST-CHANGE="2016-07-20T13:37:47.399+02:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_Y2FQ8E5uEeaAL97O87wU6Q</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_e-mHUE5uEeaAL97O87wU6Q" LAST-CHANGE="2016-07-20T13:38:28.989+02:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_e-OT4E5uEeaAL97O87wU6Q</SPEC-OBJECT-REF>
                   </OBJECT>
                 </SPEC-HIERARCHY>
               </CHILDREN>
@@ -159,7 +205,7 @@
               <configuration:Column label="Description" width="697"/>
             </configuration:columns>
             <configuration:leftHeaderColumn>
-              <configuration:Column label="Lead Header Column" width="30"/>
+              <configuration:Column label="Lead Header Column" width="31"/>
             </configuration:leftHeaderColumn>
           </configuration:ProrSpecViewConfiguration>
           <configuration:ProrSpecViewConfiguration specification="_vs2tIEzpEeaEWvm_49eTCQ">
