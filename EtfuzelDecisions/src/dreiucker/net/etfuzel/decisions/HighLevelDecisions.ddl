@@ -49,6 +49,7 @@ Decision windowToolkitSWT {
 		windowToolkitSwing: "Use Swing" causes "Same typical Java UI look on all plattforms"
 	}
 	
-	//Requirements: R
+	Requirements: ReqUI_01
+
 	
 }
