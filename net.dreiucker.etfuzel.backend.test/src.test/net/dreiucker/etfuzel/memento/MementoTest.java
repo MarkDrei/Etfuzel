@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import dreiucker.net.etfuzel.memento.Memento;
+import net.dreiucker.etfuzel.memento.Memento;
 
 public class MementoTest {
 	
