@@ -25,8 +25,8 @@
   </properties>
   
   <modules>
-	<module>dreiucker.net.etfuzel.backend</module> 
-	<module>dreiucker.net.etfuzel.backend.test</module> 
-	<module>dreiucker.net.etfuzel.ui</module> 
+	<module>net.dreiucker.etfuzel.backend</module> 
+	<module>net.dreiucker.etfuzel.backend.test</module> 
+	<module>net.dreiucker.etfuzel.ui</module> 
   </modules>
 </project>
