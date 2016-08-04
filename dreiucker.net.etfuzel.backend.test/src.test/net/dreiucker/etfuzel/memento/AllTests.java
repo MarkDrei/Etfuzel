@@ -1,4 +1,4 @@
-package dreiucker.net.etfuzel.memento;
+package net.dreiucker.etfuzel.memento;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

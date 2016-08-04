@@ -1,8 +1,10 @@
-package dreiucker.net.etfuzel.memento;
+package net.dreiucker.etfuzel.memento;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import dreiucker.net.etfuzel.memento.Memento;
 
 public class MementoTest {
 	

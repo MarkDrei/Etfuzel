@@ -1,4 +1,4 @@
-package dreiucker.net.etfuzel.memento;
+package net.dreiucker.etfuzel.memento;
 
 public class Memento  {
 	
