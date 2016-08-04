@@ -4,5 +4,5 @@
  * 
  * @decision dataModelLogicallySeparated
  */
-package dreiucker.net.etfuzel;
+package net.dreiucker.etfuzel;
 

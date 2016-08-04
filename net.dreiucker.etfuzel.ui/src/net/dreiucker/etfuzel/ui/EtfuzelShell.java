@@ -1,4 +1,4 @@
-package dreiucker.net.etfuzel.ui;
+package net.dreiucker.etfuzel.ui;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Display;

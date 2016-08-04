@@ -2,10 +2,9 @@
 Decision maven {
 	Issue: "How to manage build and testing"
 	Status: decided
-	Solution: maven reasoning
-		'Engineer wants to learn maven
-		
-		Maven is the de facto standard in java based projects
+	Solution: maven reasoning '
+		- Engineer wants to learn maven
+		- Maven is the de facto standard in java based projects
 		'
 	
 	Alternatives: { 

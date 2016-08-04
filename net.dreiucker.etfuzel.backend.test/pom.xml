@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Etfzuel2</groupId>
-  <artifactId>Etfzuel2Backend</artifactId>
+  <groupId>Etfuzel2</groupId>
+  <artifactId>Etfuzel2BackendTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Etfuzel 2 Backend</name>
-  <description>Implementation of Etfuzel 2's backend
-</description>
+  <name>Etfuzel 2 Backend Test</name>
+  <description>Tests for the Etfuzel 2 Backend</description>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <testSourceDirectory>src.test</testSourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -19,7 +19,19 @@
       </plugin>
     </plugins>
   </build>
-  <properties>
-  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.11</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>Etfuzel2</groupId>
+  		<artifactId>Etfuzel2Backend</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
+  
 </project>
