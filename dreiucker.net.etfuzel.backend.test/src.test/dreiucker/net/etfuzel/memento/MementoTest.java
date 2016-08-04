@@ -9,7 +9,7 @@ public class MementoTest {
 	@Test
 	public void testMementoBasic() {
 		Memento memento = new Memento("title");
-		assertEquals("titl", memento.getTitle());
+		assertEquals("title", memento.getTitle());
 	}
 
 }
