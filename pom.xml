@@ -1,10 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Etfuzel2</groupId>
-  <artifactId>Etfuzel2Backend</artifactId>
+  <groupId>Etfzuel2</groupId>
+  <artifactId>Etfzuel2Application</artifactId>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Etfuzel 2 Backend</name>
-  <description>Implementation of Etfuzel 2's backend
+  <name>Etfuzel 2 Application</name>
+  <description>Implementation of Etfuzel 2
 </description>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -22,4 +23,10 @@
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <modules>
+	<module>dreiucker.net.etfuzel.backend</module> 
+	<module>dreiucker.net.etfuzel.backend.test</module> 
+	<module>dreiucker.net.etfuzel.ui</module> 
+  </modules>
 </project>

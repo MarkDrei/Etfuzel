@@ -1,5 +1,4 @@
 language: java
 
 script: 
-- mvn test -f dreiucker.net.etfuzel.backend/pom.xml
-- mvn test -f dreiucker.net.etfuzel.ui/pom.xml
+- mvn test
