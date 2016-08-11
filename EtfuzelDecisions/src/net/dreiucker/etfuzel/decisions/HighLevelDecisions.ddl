@@ -31,12 +31,38 @@ Decision programmingLanguage {
 	}
 }
 
-Decision storageToFiles {
+Decision storageToXmlFiles {
 	Issue: "Data needs to be stored somewhere"
 	Status: decided
-	Solution: "Store the data in simple files"
+	Solution: "Store the data in XML files"
 		reasoning
 			'Easy to implement and debug, as we can observe and modify the contents in any text editor'
+	Alternatives: {
+		"Plain text files" reasoning "Implementation more difficult"
+		
+		"Binary text files" 
+			causes { 
+				"Easy to implement by serializing to Object Output/Input Streams"
+				"Not human readable"
+				"Difficult to maintain when the data model changes (old files cannot be read any more)"
+			}
+			reasoning "The human readability of XML is considered very important"
+		
+		"Object oriented database" reasoning "Not thoroughly considered due to missing experience"
+	}
+	Requirements: ReqHL_Storage_01 
+}
+
+Decision xmlTechnology {
+	Issue: "Data needs to be converted from and to XML"
+	Status: decided
+	Solution: "Use JAXB to serialize and de-serialize data to and from XML"
+		causes 
+			'Data Model and XML annotations are interleaved, thus somewhat violating the 
+			separation of concern principle'
+		reasoning 
+			'JAXB is well supported specification supported by multiple different implementations'
+	Related: storageToXmlFiles
 }
 
 Decision dataModelLogicallySeparated {
