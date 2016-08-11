@@ -9,6 +9,7 @@ public class EtfuzelStarter {
 		Display display = Display.getDefault();
 		Shell shell = EtfuzelShell.createEtfuzelInstance(display);
 		
+		shell.setSize(400, 300);
 		shell.open();
 		
 		while (!shell.isDisposed()) {

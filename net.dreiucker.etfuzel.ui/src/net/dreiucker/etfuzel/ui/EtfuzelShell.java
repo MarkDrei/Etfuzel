@@ -1,6 +1,7 @@
 package net.dreiucker.etfuzel.ui;
 
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.Button;
@@ -22,6 +23,8 @@ import org.eclipse.swt.widgets.Shell;
  */
 public class EtfuzelShell {
 	
+	private final Image ICON = new Image(Display.getDefault(), "resources/etfuzel.ico");
+	
 	private Shell shell;
 	private MementosView mementosView;
 	private Button load;
@@ -40,6 +43,8 @@ public class EtfuzelShell {
 
 	private EtfuzelShell(Display display) {
 		shell = new Shell(display, SWT.CLOSE | SWT.TITLE | SWT.MIN | SWT.MAX | SWT.RESIZE);
+		shell.setText("Etfuzel 2");
+		shell.setImage(ICON);
 		
 		configureTopRow();
 		
