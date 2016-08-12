@@ -64,10 +64,8 @@ public class EtfuzelShell {
 				if (mementosView != null) {
 					mementosView.storeData();
 				}
-				
 			}
 		});
-		
 	}
 
 	/**

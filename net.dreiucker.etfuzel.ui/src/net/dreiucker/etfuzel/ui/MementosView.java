@@ -3,6 +3,7 @@ package net.dreiucker.etfuzel.ui;
 import net.dreiucker.etfuzel.memento.Memento;
 import net.dreiucker.etfuzel.memento.MementoFileHandler;
 import net.dreiucker.etfuzel.memento.MementoList;
+import net.dreiucker.etfuzel.memento.MementoText;
 
 public class MementosView {
 
@@ -10,7 +11,13 @@ public class MementosView {
 	
 	public MementosView() {
 		list = new MementoList();
-		list.add(new Memento("the title"));
+		Memento memento = new Memento("the title");
+		MementoText text = new MementoText();
+		text.setText("This is the text for the memento");
+		memento.setParts(text);
+		memento.setParts(text);
+		list.add(memento);
+		
 	}
 
 	public void storeData() {

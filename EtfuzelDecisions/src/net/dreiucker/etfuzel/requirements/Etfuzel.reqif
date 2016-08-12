@@ -133,6 +133,23 @@
             <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_EGdF4GCmEeafbtRukZPvHg" LAST-CHANGE="2016-08-12T18:01:39.370+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqHL_Memento_02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Mementos may contain other elements, such as pictures, due dates...">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_NM3D2kzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:12:30.750+02:00" LONG-NAME="Specification Document">
@@ -155,6 +172,11 @@
                 <SPEC-HIERARCHY IDENTIFIER="_MqzQ4EzvEeauxrQaf4JX3w" LAST-CHANGE="2016-07-18T15:54:48.824+02:00">
                   <OBJECT>
                     <SPEC-OBJECT-REF>_MqbdcEzvEeauxrQaf4JX3w</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_EG9cMGCmEeafbtRukZPvHg" LAST-CHANGE="2016-08-12T18:01:39.370+02:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_EGdF4GCmEeafbtRukZPvHg</SPEC-OBJECT-REF>
                   </OBJECT>
                 </SPEC-HIERARCHY>
               </CHILDREN>

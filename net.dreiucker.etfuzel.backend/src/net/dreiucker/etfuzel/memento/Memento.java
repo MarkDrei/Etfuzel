@@ -1,24 +1,33 @@
 package net.dreiucker.etfuzel.memento;
 
+import java.util.ArrayList;
+
+import javax.xml.bind.annotation.XmlElementRef;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 
 /**
  * Main class for storing 
  *  
  * @decision xmlTechnology
+ * @requirement ReqHL_01
  */
-@XmlRootElement(name = "memento")
+@XmlRootElement
 public class Memento  {
 	
 	private String title;
 
-	@SuppressWarnings("unused")
+//	// XmLElementWrapper generates a wrapper element around XML representation
+	@XmlElementWrapper(name = "partlist")
+	@XmlElementRef
+	private ArrayList<AMementoPart> parts;
+	
 	private Memento() {
-		// only for XML construction
+		parts = new ArrayList<AMementoPart>();
 	}
 	
 	public Memento(String title) {
+		this();
 		this.title = title;
 	}
 	
@@ -28,6 +37,11 @@ public class Memento  {
 	
 	public String getTitle() {
 		return title;
-		
+	}
+
+
+	
+	public void setParts(AMementoPart part) {
+		parts.add(part);
 	}
 }
