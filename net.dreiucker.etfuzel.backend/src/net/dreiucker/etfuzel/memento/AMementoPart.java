@@ -11,3 +11,4 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 public abstract class AMementoPart {
 
 }
+

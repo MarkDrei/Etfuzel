@@ -30,4 +30,8 @@ public class MementoList {
 		mementos.add(memento);
 	}
 	
+	public ArrayList<Memento> getMementos() {
+		return mementos;
+	}
+	
 }

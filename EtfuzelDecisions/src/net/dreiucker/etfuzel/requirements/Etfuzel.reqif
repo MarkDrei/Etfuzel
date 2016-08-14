@@ -150,6 +150,57 @@
             <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_ppw1cGI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T18:13:03.412+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqUI_02">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The user must be able to navigate to each of the available mementos">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_vSO50GI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T18:13:27.360+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqUI_03">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="After navigation to a memento, the contents shall be visualized">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_4LBfcGI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T17:50:49.221+02:00">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="ReqUI_100">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_Hm2WMEzsEeauxrQaf4JX3w</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="The user interface must provide tools to store and load the mementos">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_NM3D1UzpEeaEWvm_49eTCQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_NM3D1EzpEeaEWvm_49eTCQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_NM3D2kzpEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:12:30.750+02:00" LONG-NAME="Specification Document">
@@ -210,6 +261,23 @@
             <SPEC-HIERARCHY IDENTIFIER="_Gf8qcEzqEeaEWvm_49eTCQ" LAST-CHANGE="2016-07-18T15:18:19.490+02:00">
               <OBJECT>
                 <SPEC-OBJECT-REF>_GfmFIEzqEeaEWvm_49eTCQ</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_pqMTQGI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T17:49:08.350+02:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_ppw1cGI2EeanSvqsV_Cp3A</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_vSlfIGI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T17:49:49.804+02:00">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_vSO50GI2EeanSvqsV_Cp3A</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_4LYr0GI2EeanSvqsV_Cp3A" LAST-CHANGE="2016-08-14T17:50:49.221+02:00">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_4LBfcGI2EeanSvqsV_Cp3A</SPEC-OBJECT-REF>
               </OBJECT>
             </SPEC-HIERARCHY>
           </CHILDREN>

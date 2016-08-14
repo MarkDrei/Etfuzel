@@ -18,7 +18,12 @@ Decision storageToXmlFiles {
 		
 		"Object oriented database" reasoning "Not thoroughly considered due to missing experience"
 	}
-	Requirements: ReqHL_Storage_01 
+	
+	Requirements: {
+		ReqHL_Storage_01
+		ReqHL_01
+		ReqHL_02
+	}
 }
 
 Decision xmlTechnology {
@@ -52,5 +57,8 @@ Decision xmlParts {
 		reasoning 'More difficult to extend and a big number of useless (?) getter and setter methods.'
 	}
 	
-	Requirements: ReqHL_Memento_02
+	Requirements: {
+		ReqHL_Memento_01
+		ReqHL_Memento_02
+		}
 }
